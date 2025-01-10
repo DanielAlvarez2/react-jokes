@@ -3,7 +3,8 @@ export default function Joke(props){
         <>
             {props.setup && <b>Setup: {props.setup}</b>}
             <br/><br/>
-            Punchline: {props.punchline}<br/><br/><hr/>
+            Punchline: {props.punchline}<br/><br/>
+            Upvotes: {props.upvotes}<br/><hr/>
         </>
     )
 }
